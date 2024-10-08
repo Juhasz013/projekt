@@ -29,7 +29,7 @@
     }
   }
   import KarakterKartya from "@/components/KarakterKartya.vue";
-  import Kartyainf from "@/components/Kartyainf.vue";
+  import KartyaInfo from "@/components/KartyaInfo.vue";
   export default {
     components: {
       KarakterKartya,
@@ -42,56 +42,70 @@
         karakterek: [
           {
             id: 1,
-            rang: "Alucard",
-            kep: "alucard.png",
+            jatekos: "Kirito",
+            kep: "",
             szoveg: [
             ],
           },
           {
             id: 2,
-            rang: "Anderson",
-            kep: "anderson.png",
+            jatekos: "Asuna",
+            kep: "",
             szoveg: [
             ],
           },
           {
             id: 3,
-            rang: "Captain",
-            kep: "captain.png",
+            jatekos: "Klein",
+            kep: "ng",
             szoveg: [
             ],
           },
           {
             id: 4,
-            rang: "Dornez",
-            kep: "dornez.png",
+            jatekos: "Agil",
+            kep: "n",
             szoveg: [
             ],
           },
           {
             id: 5,
-            rang: "Major",
-            kep: "major.png",
+            jatekos: "Heatcliff",
+            kep: "",
+            szoveg: [
+            ],
+          },
+          {
+            id: 6,
+            jatekos: "Leafa",
+            kep: "",
             szoveg: [
             ],
           },
           {
             id: 7,
-            rang: "Schrodinger",
-            kep: "schrodinger.png",
+            jatekos: "Yuuki",
+            kep: "",
             szoveg: [
             ],
           },
           {
             id: 8,
-            rang: "Victoria",
-            kep: "victoria.png",
+            jatekos: "Sinon",
+            kep: ".",
             szoveg: [
             ],
           },
           {
-            id: 9,
-            rang: "",
+            jatekos: 9,
+            jatekos: "Eugo",
+            kep: ".",
+            szoveg: [
+            ],
+          },
+          {
+            jatekos: 10,
+            jatekos: "Alice",
             kep: ".",
             szoveg: [
             ],

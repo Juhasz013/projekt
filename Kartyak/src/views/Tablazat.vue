@@ -34,10 +34,11 @@ export default {
                 { id: 3,jatekos: "Klein", vrmmorpg: "Aincrad | GGO | Alicization", nickname: "BallDeep69" },
                 { id: 4, jatekos: "Agil", vrmmorpg: "Aincrad | Alfheim | Alicization", nickname: "Blacksmith" },
                 { id: 5, jatekos: "Heatcliff", vrmmorpg: "Aincrad", nickname: "Leader" },
-                { id: 7, jatekos: "Leafa", vrmmorpg: "Alfheim | Alicization", nickname: "Speedaholic" },
-                { id: 8, jatekos: "Yuuki", vrmmorpg: "Alfheim | Alicization", nickname: "Zekken" },
-                { id: 9, jatekos: "Sinon", vrmmorpg: "GGO | Alfheim | Alicization", nickname: "The Sniper" },
-                { id: 10, jatekos: "Eugo", vrmmorpg: "Alicization", nickname: "Blue Rose" },
+                { id: 6, jatekos: "Leafa", vrmmorpg: "Alfheim | Alicization", nickname: "Speedaholic" },
+                { id: 7, jatekos: "Yuuki", vrmmorpg: "Alfheim | Alicization", nickname: "Zekken" },
+                { id: 8, jatekos: "Sinon", vrmmorpg: "GGO | Alfheim | Alicization", nickname: "The Sniper" },
+                { id: 9, jatekos: "Eugo", vrmmorpg: "Alicization", nickname: "Blue Rose" },
+                { id: 10, jatekos: "Alice", vrmmorpg: "Alicization", nickname: "Fluctlight" },
                 
             ]
         };
