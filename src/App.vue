@@ -32,15 +32,13 @@ export default {
 <template>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-      <div class="container-fluid d-flex justify-content-center">
-        <h1 class="navbar-title">Kártya Projekt</h1>
-      </div>
-      <div class="container-fluid d-flex justify-content-center">
+      <div class="container-fluid">
+        <h1 class="navbar-title">SAO Projekt</h1>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
-          <ul class="navbar-nav">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <RouterLink to="/" class="nav-link">Home</RouterLink>
             </li>
@@ -65,103 +63,85 @@ export default {
   </header>
 </template>
 
-
-
-<style scope>
+<style scoped>
 body {
   background-color: #1c1c2b !important;
   font-family: 'Arial', sans-serif;
 }
 
-/* Alap navbar konténer */
-.navbar-container {
-  background-color: #1a1a2e;
-  border-bottom: 3px solid #00bfff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-}
-
-/* Cím stílusok */
-.navbar-title {
-  color: #00bfff;
-  font-family: 'Orbitron', sans-serif;
-  text-shadow: 2px 2px 8px #0080ff;
-  font-size: 2rem;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin-right: 20px;
-  text-align: center; /* Cím középre igazítása */
-  flex-grow: 1;
-}
-/* Navbar stílusok */
+/* Navbar styles */
 .navbar {
   background-color: #1a1a2e;
-  padding: 20px;
+  padding: 1rem;
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-/* Linkek stílusai */
-.navbar-links .navbar-link {
+/* Title styles */
+.navbar-title {
+  color: #00bfff;
+  font-family: 'Orbitron', sans-serif;
+  text-shadow: 2px 2px 8px #0080ff;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+/* Link styles */
+.navbar-nav .nav-link {
   color: #d1d1d1;
   font-family: 'Orbitron', sans-serif;
-  font-size: 1.2rem;
-  text-decoration: none;
+  font-size: 1rem;
   text-transform: uppercase;
   transition: color 0.3s ease;
-  position: relative;
 }
 
-.navbar-links .navbar-link:hover {
+.navbar-nav .nav-link:hover {
   color: #00bfff;
-  cursor: pointer;
 }
 
-/* Neon hatású aláhúzás */
-.navbar-links .navbar-link::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -5px;
-  height: 3px;
-  width: 100%;
-  background-color: #00bfff;
-  transform: scaleX(0);
-  transition: transform 0.3s ease;
-}
-
-.navbar-links .navbar-link:hover::after {
-  transform: scaleX(1);
-}
-
-/* Kereső mező stílusok */
+/* Search container styles */
 .search-container {
   display: flex;
   align-items: center;
 }
 
-/* Updated search-label */
+/* Search label styles */
 .search-label {
   color: #00bfff;
   font-family: 'Orbitron', sans-serif;
   text-shadow: 0 0 5px #00bfff, 0 0 10px #0080ff;
-  letter-spacing: 1px;
 }
 
-/* Updated search-button */
+/* Search button styles */
 .search-button {
   background-color: #00bfff;
   border: 1px solid #00bfff;
   color: #1a1a2e;
   font-family: 'Orbitron', sans-serif;
   text-transform: uppercase;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   transition: background-color 0.3s ease;
 }
-
 
 .search-button:hover {
   background-color: #0080ff;
   color: #fff;
 }
 
+/* Media Queries */
+@media (max-width: 768px) {
+  .navbar-title {
+    font-size: 1.2rem; /* Smaller title on smaller screens */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 0.9rem; /* Smaller font size for links */
+  }
+
+  .search-input {
+    width: 100%; /* Full width on smaller screens */
+  }
+}
 </style>

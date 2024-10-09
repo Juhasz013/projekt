@@ -39,6 +39,8 @@ export default {
                 { id: 8, jatekos: "Sinon", vrmmorpg: "GGO | Alfheim | Alicization", nickname: "The Sniper" },
                 { id: 9, jatekos: "Eugeo", vrmmorpg: "Alicization", nickname: "Blue Rose" },
                 { id: 10, jatekos: "Alice", vrmmorpg: "Alicization", nickname: "Fluctlight" },
+                { id: 11, jatekos: "Quinella", vrmmorpg: "Alicization", nickname: "Administrator" },
+                { id: 12, jatekos: "Yui", vrmmorpg: "Alicization", nickname: "Mental Health and Counselling Program" },
                 
             ]
         };

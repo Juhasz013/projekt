@@ -97,17 +97,31 @@
             ],
           },
           {
-            jatekos: 9,
+            id: 9,
             jatekos: "Eugeo",
             kep: "eugeo.png",
             szoveg: ["Eugeo (ユージオ, Yūjio ? ) az Alicization Arc első felének deuteragonistája volt . Eugeo az Alvilág Emberi Birodalmának egyik távoli falujában született , ahol azt a szent feladatot kapta, hogy gyerekkori barátjával , Kiritóval együtt döntsön egy óriási fát . Miután egy hegyi kaland során egy szerencsétlenség következtében másik gyerekkori barátját, Alice Zuberget egy Integrity Knight letartóztatta a Tabuindex megszegése miatt, miközben Kiritóval kapcsolatos emlékeit megpecsételték a világ adminisztrátorai, Eugeo a következő hat évet azzal töltötte, hogy összpontosítson. a munkája során, hogy ne gondoljon elveszett barátjára, mígnem Kirito visszatérése az alvilágba oda vezetett, hogy Eugeo elhatározta, hogy útnak indul, hogy maga is Integrity Knight legyen, hogy megmentse Alice-t, valamint elsajátította a Kék Rózsa kard kezeléséhez szükséges készségeket . előkerült a hegyekből, ahol Alice áttörte a Tabuindexet."
             ],
           },
           {
-            jatekos: 10,
+            id: 10,
             jatekos: "Alice",
             kep: "alice.png",
             szoveg: ["Alice Zuberg (アリス・ツーベルク, Arisu Tsūberuku ? ) az Alicization Arc egyik főszereplője és az Unital Ring Arc mellékszereplője . Rulid Village főnökének, Gasupht Zubergnek a lánya , valamint Eugeo és Kirito gyerekkori barátja . Mivel gyermekkorában véletlenül megszegte a Tabuindex egy záradékát, Alice-t a Deusolbert Synthesis Seven elfogta , és a központi katedrálisba vitte, ahol kénytelen volt az Alice Synthesis Thirty névre keresztelt Integrity Knight (アリス・シンセ) lenni . Shinseshisu Sāti ) emlékeivel lezárva. Miután Quinella legfelsőbb pap és Chudelkin főelder meghalt, és Kirito kómás állapotba került a csata után, Alice visszatért Rulid falujába Kiritóval, hogy elkerülje a fiú életének esetleges megtorlását, és újra egyesüljön nővére Selka Zuberg ott. A falu elleni goblintámadást követően, amely során Alice visszanyerte vágyát, hogy megvédje a világukat, Alice a Nagy Keleti Kapuhoz utazott, hogy csatlakozzon az Emberi Őrző Hadsereghez, hogy megvédje az Emberi Birodalmat a Sötét Területi Hadsereg inváziója ellen."
+            ],
+          },
+          {
+            id: 11,
+            jatekos: "Quinella",
+            kep: "quinella.png",
+            szoveg: ["Quinella (クィネラ, Kwinera?), más néven önjelölt Adminisztrátor (アドミニストレータ, Adominisutorēta?), az Alicizációs ív első felének fő antagonistája volt. Ő volt az Emberi Birodalom tényleges uralkodója az Alvilágban, mint az Axióma Egyház legmagasabb lelkésze."
+            ],
+          },
+          {
+            id: 12,
+            jatekos: "Alice",
+            kep: "yui.png",
+            szoveg: ["Yui (ユイ, Yui?), hivatalos nevén «Yui-MHCP001» (Mental Health Counseling Program 001), egy mellékszereplő a Sword Art Online sorozatban. Ő egy felülről lefelé irányuló mesterséges intelligencia (AI) program, amelyet eredetileg az Argus fejlesztett ki, hogy a játékosok mentális egészségével kapcsolatos problémákat kezelje a Sword Art Online-ban (SAO). Amikor azonban Kayaba Akihiko a Sword Art Online-t egy haláljátékká változtatta, Yui-nak a Cardinal System megtiltotta, hogy bármilyen módon beleavatkozzon a játékosokba, ami összeomlásához vezetett, mert kénytelen volt megfigyelni a játékosok mentális egészségét anélkül, hogy teljesíthette volna feladatait. Asuna és Kirito ebben az összetört állapotban találták az Aincrad úszó kastély 22. emeletének erdei körül, összetévesztették őt egy elveszett gyerekjátékosnak, és a pár örökbe fogadta. Miután felidézte valódi személyazonosságát az 1. emeleten lévő Hidden Dungeonban, Yui figyelmen kívül hagyta a Cardinal System parancsait, és gyakorolta a Játékmesteri jogait, hogy megmentse Asunát és Kiritót a Végzetes kaszától, aminek következtében a rendszer megjelölte törlésre. Mielőtt ez megtörténhetett volna, Yui programfájljait leválasztották a rendszerről, játékon belüli objektummá alakították, és Kirigaya Kazuto (Kirito) NerveGear-jében tárolták. A Sword Art Online törlése után Yui adatait Kirito fiókjával együtt importálták az ALfheim Online-ba, mivel a játék a Sword Art Online szervereiről származó adatokon alapult. Az ALfheim Online-ban Yui-t a játék rendszere Navigációs Pixie-ként kezeli, és hozzáférést biztosít számára a játék adatbázisához. A Fairy Dance Arc után Yui adatai a Kazuto's NerveGear-en kívülre kerültek, így hozzáférést biztosított számára a játékokon kívüli eszközökhöz."
             ],
           },
         ],
@@ -116,6 +130,8 @@
     methods: {
       reszletModalKezelo(id) {
         this.kivalasztottKarakter = this.karakterek.filter((k) => k.id == id.id)[0];
+        console.log(this.kivalasztottKarakter);
+        
       },
       keresJelol(szoveg) {
         if (this.keresoSzo) {
