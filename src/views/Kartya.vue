@@ -3,17 +3,17 @@
       <KarakterKartya v-for="karakter in szurtKarakterek" :key="karakter.id" :id="karakter.id"
         @karaterModalReszletKezeles="reszletModalKezelo" class="karakter-kartya">
         <template v-slot:kep>
-          <img :src="karakter.kep" :alt="karakter.rang" class="karakter-kep" />
+          <img :src="karakter.kep" :alt="karakter.jatekos" class="karakter-kep" />
         </template>
-        <template v-slot:rang>
-          <p v-html="keresJelol(karakter.rang)" class="karakter-rang"></p>
+        <template v-slot:jatekos>
+          <p v-html="keresJelol(karakter.jatekos)" class="karakter-jatekos"></p>
         </template>
       </KarakterKartya>
     </div>
     <div v-if="szurtKarakterek.length == 0">Nincs találat</div>
   
-    <KartyaInfo :rang="keresJelol(kivalasztottKarakter.rang)">
-      <img :src="kivalasztottKarakter.kep" :alt="kivalasztottKarakter.rang"
+    <KartyaInfo :jatekos="keresJelol(kivalasztottKarakter.jatekos)">
+      <img :src="kivalasztottKarakter.kep" :alt="kivalasztottKarakter.jatekos"
         class="float-start col-12 col-sm-6 col-lg-4 me-1 p-2 my-picture" />
       <div v-html="keresJelol(szovegFormatum)"></div>
     </KartyaInfo>
@@ -21,9 +21,9 @@
   
   <script>
   class Karakter {
-    constructor(id = 0, rang = null, kep = null, szoveg = null) {
+    constructor(id = 0, jatekos = null, kep = null, szoveg = null) {
       this.id = id;
-      this.rang = rang;
+      this.jatekos = jatekos;
       this.kep = kep;
       this.szoveg = szoveg;
     }
@@ -145,7 +145,7 @@
           return this.karakterek;
         }
         return this.karakterek.filter(k => {
-          return k.rang.toLowerCase().includes(this.keresoSzo.toLowerCase()) ||
+          return k.jatekos.toLowerCase().includes(this.keresoSzo.toLowerCase()) ||
             k.szoveg.some(k => k.toLowerCase().includes(this.keresoSzo.toLowerCase()))
         });
       },
@@ -204,7 +204,7 @@
 }
 
 /* Kártyák címeinek stílusa */
-.karakter-rang {
+.karakter-jatekos {
     margin-top: 10px;
     font-weight: 700;
     font-size: 20px;

@@ -38,7 +38,7 @@ export default {
         <div class="navbar-links">
           <RouterLink to="/" class="navbar-link">Home</RouterLink> |
           <RouterLink to="/tablazat" class="navbar-link">Tester</RouterLink> |
-          <RouterLink to="/kartyak" class="navbar-link">ilyen cigányokból álló táblázat szerű cucc</RouterLink>
+          <RouterLink to="/kartya" class="navbar-link">ilyen cigányokból álló táblázat szerű cucc</RouterLink>
         </div>
 
         <div v-if="!isHomePage" class="d-flex align-items-center search-container" role="search">
