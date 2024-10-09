@@ -7,7 +7,7 @@
                         <tr>
                             <th scope="col">Név</th>
                             <th scope="col">VRMMORPG</th>
-                            <th scope="col">Becenév</th>
+                            <th scope="col">Nickname</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -59,80 +59,71 @@ export default {
 </script>
 
 <style scoped>
-/* Sötét háttér és kontrasztos színek */
 .container-fluid {
     margin-top: 20px;
     padding: 20px;
-    background-color: #1c1c2b; /* Mély sötétkék háttér */
+    background-color: #1c1c2b; 
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); /* Mélység érzet */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); 
 }
 
-/* Flexbox a táblázat középre igazításához */
 .row {
     display: flex;
     justify-content: center;
 }
 
-/* Táblázat általános stílusa */
 .table {
     margin-top: 20px;
-    border: 2px solid #00bfff; /* Neon kék szegély */
-    background-color: #1a1a2e; /* Sötét háttér */
-    box-shadow: 0 0 15px rgba(0, 191, 255, 0.5); /* Neon hatású külső fény */
+    border: 2px solid #00bfff; 
+    background-color: #1a1a2e; 
+    box-shadow: 0 0 15px rgba(0, 191, 255, 0.5); 
     border-radius: 8px;
 }
 
-/* Fejlécek stílusa */
 .table thead {
-    background-color: #121233; /* Sötétebb háttér a futurisztikus érzetért */
-    color: #00bfff; /* Neon kék betűszín */
-    font-family: 'Orbitron', sans-serif; /* Futurisztikus betűtípus */
+    background-color: #121233; 
+    color: #00bfff; 
+    font-family: 'Orbitron', sans-serif; 
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-size: 1.2rem; /* Fejléc betűméret növelése */
+    font-size: 1.2rem; 
 }
 
-/* Táblázat sorainak stílusa */
 .table tbody tr {
-    background-color: #2c2c4f; /* Sötétkék árnyalatú sorok */
-    color: #d1d1d1; /* Halvány szürke betűszín */
+    background-color: #2c2c4f;
+    color: #d1d1d1; 
     font-family: 'Lora', serif;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* Hover hatás a táblázat soraiban */
 .table tbody tr:hover {
-    background-color: #3b3b6b; /* Világosabb kék árnyalat hover esetén */
-    color: #00bfff; /* Neon kék szöveg hover esetén */
+    background-color: #3b3b6b; 
+    color: #00bfff;
 }
 
-/* Cellák közti szegély */
 .table td,
 .table th {
-    border-color: #00bfff; /* Neon kék szegélyek a cellák között */
+    border-color: #00bfff; 
     padding: 15px;
 }
 
-/* Általános stílus az oldalhoz */
+
 body {
-    background-color: #0d0d19; /* Mély sötétkék háttér */
-    color: #d1d1d1; /* Halvány szürke szöveg */
-    font-family: 'Orbitron', sans-serif; /* Futurisztikus betűtípus */
+    background-color: #0d0d19; 
+    color: #d1d1d1; 
+    font-family: 'Orbitron', sans-serif; 
     letter-spacing: 0.5px;
 }
 
-/* Hover effekt a táblázat linkjein */
+
 .table tbody tr:hover td {
-    color: #00bfff; /* Neon kék szöveg hover esetén */
+    color: #00bfff; 
 }
 
-/* A sorok celláinak stílusa */
 .table tbody td {
     font-size: 1rem;
 }
 
-/* Sötétebb háttér a fejlécnek */
 .table thead {
     background-color: #121233;
 }

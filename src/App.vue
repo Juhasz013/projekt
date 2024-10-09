@@ -37,8 +37,8 @@ export default {
       <nav class="my-border p-4 d-flex justify-content-between align-items-center navbar">
         <div class="navbar-links">
           <RouterLink to="/" class="navbar-link">Home</RouterLink> |
-          <RouterLink to="/tablazat" class="navbar-link">Táblázat</RouterLink> |
-          <RouterLink to="/kartyak" class="navbar-link">Karakterek</RouterLink>
+          <RouterLink to="/tablazat" class="navbar-link">Tester</RouterLink> |
+          <RouterLink to="/kartyak" class="navbar-link">ilyen cigányokból álló táblázat szerű cucc</RouterLink>
         </div>
 
         <div v-if="!isHomePage" class="d-flex align-items-center search-container" role="search">
