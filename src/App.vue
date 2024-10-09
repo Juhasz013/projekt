@@ -31,30 +31,41 @@ export default {
 
 <template>
   <header>
-    <div class="container-fluid my-border my-container navbar-container">
-      <h1 class="navbar-title">Kártya Projekt</h1>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container-fluid d-flex justify-content-center">
+        <h1 class="navbar-title">Kártya Projekt</h1>
+      </div>
+      <div class="container-fluid d-flex justify-content-center">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <RouterLink to="/" class="nav-link">Home</RouterLink>
+            </li>
+            <li class="nav-item">
+              <RouterLink to="/tablazat" class="nav-link">Tester</RouterLink>
+            </li>
+            <li class="nav-item">
+              <RouterLink to="/kartya" class="nav-link">Karakter Táblázat</RouterLink>
+            </li>
+          </ul>
 
-      <nav class="my-border p-4 d-flex justify-content-between align-items-center navbar">
-        <div class="navbar-links">
-          <RouterLink to="/" class="navbar-link">Home</RouterLink> |
-          <RouterLink to="/tablazat" class="navbar-link">Tester</RouterLink> |
-          <RouterLink to="/kartya" class="navbar-link">ilyen cigányokból álló táblázat szerű cucc</RouterLink>
+          <!-- Kereső mező -->
+          <form v-if="!isHomePage" class="d-flex align-items-center search-container" role="search">
+            <label for="keresoSzo" class="form-label text-nowrap m-0 search-label">Link Start:</label>
+            <input id="keresoSzo" class="form-control me-2 ms-2 search-input" type="search" aria-label="Keresés" v-model="keresoSzoInput" />
+            <button class="btn btn-outline-danger search-button" type="button" @click="keresoSzo = keresoSzoInput">System Scan</button>
+          </form>
         </div>
-
-        <div v-if="!isHomePage" class="d-flex align-items-center search-container" role="search">
-          <label for="keresoSzo" class="form-label text-nowrap m-0 search-label">Link Start:</label>
-<input id="keresoSzo" class="form-control me-2 ms-2 search-input" type="search" aria-label="Keresés"
-       v-model="keresoSzoInput" />
-<button class="btn btn-outline-danger search-button" type="submit" @click="keresoSzo = keresoSzoInput">
-  System Scan
-</button>
-
-        </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
+    <RouterView />
   </header>
-  <RouterView />
 </template>
+
+
 
 <style scope>
 body {
@@ -74,13 +85,13 @@ body {
   color: #00bfff;
   font-family: 'Orbitron', sans-serif;
   text-shadow: 2px 2px 8px #0080ff;
-  text-align: center;
-  padding: 20px 0;
-  font-size: 3rem;
+  font-size: 2rem;
   letter-spacing: 2px;
   text-transform: uppercase;
+  margin-right: 20px;
+  text-align: center; /* Cím középre igazítása */
+  flex-grow: 1;
 }
-
 /* Navbar stílusok */
 .navbar {
   background-color: #1a1a2e;
@@ -131,7 +142,6 @@ body {
 /* Updated search-label */
 .search-label {
   color: #00bfff;
-  font-size: 1.1rem;
   font-family: 'Orbitron', sans-serif;
   text-shadow: 0 0 5px #00bfff, 0 0 10px #0080ff;
   letter-spacing: 1px;
@@ -146,14 +156,12 @@ body {
   text-transform: uppercase;
   letter-spacing: 2px;
   transition: background-color 0.3s ease;
-  box-shadow: 0 0 10px #00bfff, 0 0 20px #0080ff, 0 0 30px #004080;
 }
+
 
 .search-button:hover {
   background-color: #0080ff;
   color: #fff;
-  box-shadow: 0 0 20px #00bfff, 0 0 40px #0080ff, 0 0 60px #004080;
 }
-
 
 </style>
