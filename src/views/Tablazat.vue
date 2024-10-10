@@ -30,7 +30,7 @@ export default {
         return {
             karakterek: [
                 { id: 1, jatekos: "Kirito", vrmmorpg: "Aincrad | Alfheim |GGO | Alicization", nickname: "Black Swordman" },
-                { id: 2,jatekos: "Asuna", vrmmorpg: "Aincrad | Alfheim |GGO | Alicization", nickname: "Flash" },
+                { id: 2,jatekos: "Asuna", vrmmorpg: "Aincrad | Alfheim |GGO | Alicization", nickname: "Lightning" },
                 { id: 3,jatekos: "Klein", vrmmorpg: "Aincrad | GGO | Alicization", nickname: "BallDeep69" },
                 { id: 4, jatekos: "Agil", vrmmorpg: "Aincrad | Alfheim | Alicization", nickname: "Blacksmith" },
                 { id: 5, jatekos: "Heatcliff", vrmmorpg: "Aincrad", nickname: "Leader" },
@@ -62,12 +62,23 @@ export default {
 
 <style scoped>
 .container-fluid {
-    margin-top: 20px;
+    margin-top: 80px; /* Add a margin to account for the navigation bar */
     padding: 20px;
-    background-color: #1c1c2b; 
+    background-color: #1c1c2b;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
 }
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    z-index: 1000; /* Ensure it stays above other content */
+    background-color: #121233; /* Adjust to your desired color */
+}
+
 
 .row {
     display: flex;

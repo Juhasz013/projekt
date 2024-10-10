@@ -54,7 +54,7 @@ export default {
           <form v-if="!isHomePage" class="d-flex align-items-center search-container" role="search">
             <label for="keresoSzo" class="form-label text-nowrap m-0 search-label">Link Start:</label>
             <input id="keresoSzo" class="form-control me-2 ms-2 search-input" type="search" aria-label="Keresés" v-model="keresoSzoInput" />
-            <button class="btn btn-outline-danger search-button" type="button" @click="keresoSzo = keresoSzoInput">System Scan</button>
+            <button class="btn btn-outline-danger search-button text-nowrap" type="button" @click="keresoSzo = keresoSzoInput">System Scan</button>
           </form>
         </div>
       </div>
@@ -68,7 +68,6 @@ body {
   background-color: #1c1c2b !important;
   font-family: 'Arial', sans-serif;
 }
-
 /* Navbar styles */
 .navbar {
   background-color: #1a1a2e;
