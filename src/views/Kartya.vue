@@ -61,7 +61,7 @@ export default {
           jatekos: "Asuna",
           kep: "asuna.png",
           szoveg: [
-            "Yuuki Asuna (結城 明日奈, Yūki Asuna ? ) , Asuna (アスナ, Asuna ? ) néven ismert a « Sword Art Online » (SAO), « ALfheim Online » (ALO), valamint a « Project Alicization »-ben, ahol volt. ideiglenesen a Stacia (ステイシア, Suteishia ? ) fiókot használta , a Sword Art Online sorozat [9] főhősnője , az Aincrad Arc deuteragonistája , valamint az Anya Rosario melléktörténetének főszereplője. A RECT Inc. korábbi vezérigazgatójának lánya . Asuna egyike volt annak a 10 000 játékosnak, akik a „Sword Art Online”-ban rekedtek, ahol a „ Knights of the Blood ” (KoB) céh alvezetője volt . [5] A rapírozási képességei miatt a „The Flash” becenevet kapta (閃光, Senkō ? ). A Sword Art Online törlése után Asuna átadta SAO avatarját az ALfheim Online-nak, és Undine- ként kezdett játszani a játékkal . Mivel hajlamos harcba szállni egy rapírral, annak ellenére, hogy gyógyító, kiérdemelte a „Berserk Healer” becenevet (バーサクヒーラー, Bāsaku Hīrā ? ) . [6] Asuna egy alternatív avatárt is készített, a Sylph « Erikát » (エリカ, Erika ? ) , mivel néha változtatni akart a megjelenésén.",
+            "Yuuki Asuna (結城 明日奈, Yūki Asuna ? ) , Asuna (アスナ, Asuna ? ) néven ismert a « Sword Art Online » (SAO), « ALfheim Online » (ALO), valamint a « Project Alicization »-ben, ahol volt. ideiglenesen a Stacia (ステイシア, Suteishia ? ) fiókot használta , a Sword Art Online sorozat főhősnője , az Aincrad Arc deuteragonistája , valamint az Anya Rosario melléktörténetének főszereplője. A RECT Inc. korábbi vezérigazgatójának lánya . Asuna egyike volt annak a 10 000 játékosnak, akik a „Sword Art Online”-ban rekedtek, ahol a „ Knights of the Blood ” (KoB) céh alvezetője volt. A rapírozási képességei miatt a „The Flash” becenevet kapta (閃光, Senkō ? ). A Sword Art Online törlése után Asuna átadta SAO avatarját az ALfheim Online-nak, és Undine- ként kezdett játszani a játékkal . Mivel hajlamos harcba szállni egy rapírral, annak ellenére, hogy gyógyító, kiérdemelte a „Berserk Healer” becenevet (バーサクヒーラー, Bāsaku Hīrā ? ) . Asuna egy alternatív avatárt is készített, a Sylph « Erikát » (エリカ, Erika ? ) , mivel néha változtatni akart a megjelenésén.",
           ],
         },
         {
@@ -69,7 +69,7 @@ export default {
           jatekos: "Klein",
           kep: "klein.png",
           szoveg: [
-            "suboi Ryoutarou (壷井遼太郎, Tsuboi Ryōtarō ? ) [3] [4] , Klein (クライン, Kurain ? ) néven ismert a « Sword Art Online » (SAO), « ALfheim » és a Project is » (ALO) egy mellékszereplő az Aincrad Arc -ban és egy visszatérő karakter a Sword Art Online sorozaton keresztül . Egyike volt annak a 10 000 játékosnak, akik a Sword Art Online-ban rekedtek, ahol a « Fuurinkazan » céh vezetője volt , az egyik tisztább céh. [5] Miután a Sword Art Online-t törölték, Salamanderként kezdett játszani az ALfheim Online- on .",
+            "suboi Ryoutarou (壷井遼太郎, Tsuboi Ryōtarō ? ), Klein (クライン, Kurain ? ) néven ismert a « Sword Art Online » (SAO), « ALfheim » és a Project is » (ALO) egy mellékszereplő az Aincrad Arc -ban és egy visszatérő karakter a Sword Art Online sorozaton keresztül . Egyike volt annak a 10 000 játékosnak, akik a Sword Art Online-ban rekedtek, ahol a « Fuurinkazan » céh vezetője volt , az egyik tisztább céh. Miután a Sword Art Online-t törölték, Salamanderként kezdett játszani az ALfheim Online- on .",
           ],
         },
         {
@@ -85,7 +85,7 @@ export default {
           jatekos: "Heatcliff",
           kep: "heatcliff.png",
           szoveg: [
-            "(ヒースクリフ, Hīsukurifu ? ) ismert a Sword Art Online- ban , az Aincrad Arc fő antagonistája és az Arc . Ő volt a «Sword Art Online» (SAO) fejlesztési igazgatója és játékmestere (GM), valamint a « NerveGear », [3] a Cardinal System , [4] és a « The Seed » tervezője. [4] Avatárja, Heathcliff , Akihiko végül megalapította a Sword Art Online legerősebb céhét , a „ Knights of the Blood ”-t. Ő volt az első « Egyedi Skill » tulajdonosa , a « Szent Kard » [1] , és a játék legerősebb játékosának tartották. [5] A Liberator nevű együttes egykezes kardot és toronypajzsot forgatta . Az 50. emelet főnökét is képes volt egymaga harcba szállni tíz percre, ami kiérdemelte a «Man of Legend» (伝説の男, Densetsu no Otoko ? ) címet . [6] Azt is pletykálták, hogy Heathcliff ütési pontjai (HP) soha nem érték el a sárga zónát.",
+            "(ヒースクリフ, Hīsukurifu ? ) ismert a Sword Art Online- ban , az Aincrad Arc fő antagonistája és az Arc . Ő volt a «Sword Art Online» (SAO) fejlesztési igazgatója és játékmestere (GM), valamint a « NerveGear », a Cardinal System ,  és a « The Seed » tervezője. Avatárja, Heathcliff , Akihiko végül megalapította a Sword Art Online legerősebb céhét , a „ Knights of the Blood ”-t. Ő volt az első « Egyedi Skill » tulajdonosa , a « Szent Kard » , és a játék legerősebb játékosának tartották. A Liberator nevű együttes egykezes kardot és toronypajzsot forgatta . Az 50. emelet főnökét is képes volt egymaga harcba szállni tíz percre, ami kiérdemelte a «Man of Legend» (伝説の男, Densetsu no Otoko ? ) címet. Azt is pletykálták, hogy Heathcliff ütési pontjai (HP) soha nem érték el a sárga zónát.",
           ],
         },
         {
@@ -101,7 +101,7 @@ export default {
           jatekos: "Yuuki",
           kep: "yuuki.png",
           szoveg: [
-            "Konno Yuuki (紺野木綿季, Konno Yūki ? ) , Yuuki (ユウキ, Yūki ? ) néven ismert a « Serene Garden », [7] « Asuka Empire », [8] « Insect Site », [9] és az ALfheim Online című filmekben. » (ALO), a Mother's Rosario melléktörténet deuteragonistája , valamint a Nővérek imája melléktörténetének főszereplője volt a Sword Art Online sorozatban . Konno Aiko húga , egyike volt a három alapítójának és a második vezetője az « Alvó Lovagok » céhnek , egy olyan csoportnak, amely gyógyíthatatlan betegek csoportja a Serene Gardenben, a gyógyíthatatlan betegek virtuális hospice-jában találkozott, és különféle zenéket játszott. virtuális valóság játékok, mint a palliatív ellátás egyik formája.",
+            "Konno Yuuki (紺野木綿季, Konno Yūki ? ) , Yuuki (ユウキ, Yūki ? ) néven ismert a « Serene Garden », « Asuka Empire », « Insect Site », és az ALfheim Online című filmekben. » (ALO), a Mother's Rosario melléktörténet deuteragonistája , valamint a Nővérek imája melléktörténetének főszereplője volt a Sword Art Online sorozatban . Konno Aiko húga , egyike volt a három alapítójának és a második vezetője az « Alvó Lovagok » céhnek , egy olyan csoportnak, amely gyógyíthatatlan betegek csoportja a Serene Gardenben, a gyógyíthatatlan betegek virtuális hospice-jában találkozott, és különféle zenéket játszott. virtuális valóság játékok, mint a palliatív ellátás egyik formája.",
           ],
         },
         {
