@@ -48,21 +48,7 @@
       </div>
     </div>
   </div>
-  <div class="sao-healthbar">
-      <div class="main-container">
-        <div class="character-name">Valaki</div>
-        <div class="health-bar--outline">
-          <div class="health-bar--border">
-            <div class="health-bar--background">
-              <div class="health-bar--health" style="--health: 200; --max-health: 255"></div>
-            </div>
-          </div>
-        </div>
-        <div class="health-indicator" style="--health: '200'; --max-health: '255'">/
-        </div>
-        <div class="character-level" style="--level: '3'">LV:
-        </div>
-      </div>
+  <div>
     </div>
 </template>
 
@@ -223,16 +209,7 @@ export default {
 
 
 <style scoped>
-.sao-healthbar {
-  position: fixed; /* Changed to fixed to make it stay visible on scroll */
-  top: 84px; /* Adjust according to your navigation bar height */
-  left: 12px; /* Adjust left margin */
-  width: 350px;
-  height: 50px;
-  display: flex;
-  z-index: 1000; /* Ensures it stays on top of other elements */
 
-}
 .main-container {
   height: 50px;
   width: 350px;

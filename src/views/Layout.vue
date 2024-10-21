@@ -7,27 +7,6 @@
         <router-link to="/tester">Tester</router-link>
         <router-link to="/karakter-tablazat">Karakter Táblázat</router-link>
       </nav>
-  
-      <!-- SAO Health Bar - mindig látható marad -->
-      <div class="sao-healthbar">
-        <div class="main-container">
-          <div class="character-name">Valaki</div>
-          <div class="health-bar--outline">
-            <div class="health-bar--border">
-              <div class="health-bar--background">
-                <div class="health-bar--health" style="--health: 200; --max-health: 255"></div>
-              </div>
-            </div>
-          </div>
-          <div class="health-indicator" style="--health: '200'; --max-health: '255'">/
-          </div>
-          <div class="character-level" style="--level: '3'">LV:
-          </div>
-        </div>
-      </div>
-  
-      <!-- Router outlet - itt jelennek meg az oldalak tartalmai -->
-      <router-view />
     </div>
   </template>
   
@@ -38,16 +17,6 @@
   </script>
   
   <style scoped>
-  /* SAO Health Bar és egyéb stílusok */
-  .sao-healthbar {
-    position: fixed;
-    top: 70px;
-    left: 20px;
-    width: 350px;
-    height: 50px;
-    display: flex;
-    z-index: 1000;
-  }
   
   .main-container {
     height: 50px;

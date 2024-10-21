@@ -24,12 +24,7 @@ const router = createRouter({
       path: '/kartya',
       name: 'kartya',
       component: () => import('../views/Kartya.vue')
-    },
-    {
-      path: '/layout',
-      name: 'layout',
-      component: () => import('../views/Layout.vue')
-    },
+    }
   ]
 })
 
